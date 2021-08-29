@@ -2,8 +2,11 @@
 .header{
     text-align: left ;
     background-color: #ffff !important;
+    font-weight: 600 !important;
 }
 .card{
     width: calc(100% - 50px);
-
+}
+.card-height{
+    height: 500px;
 }

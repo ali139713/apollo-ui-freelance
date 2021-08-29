@@ -4,7 +4,7 @@ import './styles.css'
 class MainCard extends Component {
     render() {
      return(
-        <Card className="main-card"> 
+        <Card className="main-card "> 
         <Card.Header className="header">{this.props.header}</Card.Header>
         <Card.Body>
           {/* <Card.Title>Special title treatment</Card.Title> */}
