@@ -1,5 +1,9 @@
 
 .header{
     text-align: left ;
-    background-color: #ffff ;
+    background-color: #ffff !important;
+}
+.card{
+    width: calc(100% - 50px);
+
 }
