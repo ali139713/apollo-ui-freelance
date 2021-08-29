@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card'
 import FlexView from 'react-flexview/lib';
 import Button from 'react-bootstrap/Button'
+import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
+
 import './styles.css'
 class MainCard extends Component {
     render() {
@@ -13,7 +15,7 @@ class MainCard extends Component {
           {this.props.header}
           </FlexView>
             <FlexView hAlignContent="right" basis="50%" >
-          <Button>more</Button>
+          <Button variant="outline-secondary"><MoreHorizIcon /></Button>
           </FlexView>
           </FlexView>
           </Card.Header>
