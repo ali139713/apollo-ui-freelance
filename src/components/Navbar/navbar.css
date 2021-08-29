@@ -1,0 +1,19 @@
+.navbarButton{
+    border-radius: 30px !important;
+    font-size: 14px;
+    font-weight: 500;
+    width: 150px;
+    margin-top: 5px;
+    margin-right: 8px;
+    height: 37px;
+    text-align: center;
+}
+.iconContainer{
+    display: flex;
+    background-color: red;
+    width: 20px;
+    align-items: center;
+    margin-top: 4px;
+    margin-left:38px;
+    justify-content: space-between;
+}
