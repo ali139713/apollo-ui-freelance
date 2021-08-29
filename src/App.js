@@ -4,7 +4,7 @@ import CardContainer from './components/CardContainer/CardContainer'
 
 function App() {
   return (
-    <div className="App">
+    <div >
     <Navbar/>
     <CardContainer />
     </div>
