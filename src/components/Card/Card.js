@@ -1,11 +1,22 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card'
+import FlexView from 'react-flexview/lib';
+import Button from 'react-bootstrap/Button'
 import './styles.css'
 class MainCard extends Component {
     render() {
      return(
         <Card className="main-card "> 
-        <Card.Header className="header">{this.props.header}</Card.Header>
+        <Card.Header className="header">
+          <FlexView basis="100%" >
+            <FlexView basis="50%" >
+          {this.props.header}
+          </FlexView>
+            <FlexView hAlignContent="right" basis="50%" >
+          <Button>more</Button>
+          </FlexView>
+          </FlexView>
+          </Card.Header>
         <Card.Body>
           {/* <Card.Title>Special title treatment</Card.Title> */}
           <Card.Text>
