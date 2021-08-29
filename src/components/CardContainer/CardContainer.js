@@ -7,27 +7,33 @@ class CardContainer extends Component {
        <FlexView column marginLeft="2%" marginRight="2%" marginTop="3%" >      
             <FlexView basis="100%"  >
              <FlexView basis="50%" >
-           <Card />
+           <Card header="Contacts That Opened My Email In The Last Hour" />
              </FlexView>
-             <FlexView basis="50%" >
-             <Card />
-             </FlexView>
-        </FlexView>
-            <FlexView basis="100%" marginTop="3%" >
-             <FlexView basis="50%" >
-           <Card />
-             </FlexView>
-             <FlexView basis="50%" >
-             <Card />
+             <FlexView   basis="50%" >
+             <Card header="Complete My Daily Tasks" />
              </FlexView>
         </FlexView>
             <FlexView basis="100%" marginTop="3%" >
-             <FlexView basis="50%" >
-           <Card />
+             <FlexView basis="50%"  >
+           <Card header="Last Week's Email Stats" />
              </FlexView>
-             <FlexView basis="50%" >
-             <Card />
+             <FlexView basis="50%"  >
+             <Card header="This Week's Email Stats" />
              </FlexView>
+        </FlexView>
+            <FlexView basis="100%" marginTop="3%" >
+             <FlexView basis="50%"  >
+           <Card header="Last Week's Call Stats" />
+             </FlexView>
+             <FlexView basis="50%"  >
+             <Card header="This Week's Call Stats" />
+             </FlexView>
+        </FlexView>
+            <FlexView basis="100%" marginTop="3%" >
+             <FlexView basis="50%"  >
+           <Card header="My Scheduled Emails" />
+             </FlexView>
+           
         </FlexView>
         </FlexView>
 

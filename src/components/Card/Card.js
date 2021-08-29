@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card'
-
+import './styles.css'
 class MainCard extends Component {
     render() {
      return(
-        <Card>
-        <Card.Header>Featured</Card.Header>
+        <Card className="main-card"> 
+        <Card.Header className="header">{this.props.header}</Card.Header>
         <Card.Body>
-          <Card.Title>Special title treatment</Card.Title>
+          {/* <Card.Title>Special title treatment</Card.Title> */}
           <Card.Text>
-            With supporting text below as a natural lead-in to additional content.
+          No contacts opened your email in the last hour.
           </Card.Text>
           
         </Card.Body>
