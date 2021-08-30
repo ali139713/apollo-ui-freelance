@@ -70,13 +70,11 @@ class Navigationbar extends Component {
     <InputGroup.Text id="inputGroup-sizing-sm"></InputGroup.Text>
     
     <FormControl aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
-    
     <div className="iconContainer m-2">
   <div className="s-1 "><CallOutlinedIcon  /></div>
   <div className="s-1"><ContactSupportOutlinedIcon /></div>
   <div className="s-1"><NotificationsOutlinedIcon /></div>
   </div>
-
   </InputGroup>
       
     </Nav>
