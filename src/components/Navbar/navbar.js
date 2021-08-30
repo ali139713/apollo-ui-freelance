@@ -23,10 +23,8 @@ import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
 import PrintOutlinedIcon from '@material-ui/icons/PrintOutlined';
 import PublishOutlinedIcon from '@material-ui/icons/PublishOutlined';
 import LocalMallOutlinedIcon from '@material-ui/icons/LocalMallOutlined';
-import FlexView from 'react-flexview/lib';
 
 import "./navbar.css"
-
 
 class Navigationbar extends Component {
     render() {
@@ -66,10 +64,10 @@ class Navigationbar extends Component {
     
     <Nav>
      <Button className="navbarButton"> Upgrade </Button>
-     <InputGroup size="sm" className="ml-0 mb-2 mt-2">
-    <InputGroup.Text id="inputGroup-sizing-sm"></InputGroup.Text>
+     <InputGroup style={{height:'30px'}} size="sm" className="input-height ml-0 mb-2 mt-2 ">
+    <InputGroup.Text className="input-height" id="inputGroup-sizing-sm"></InputGroup.Text>
     
-    <FormControl aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+    <FormControl  className="input-height" aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
     <div className="iconContainer m-2">
   <div className="s-1 "><CallOutlinedIcon  /></div>
   <div className="s-1"><ContactSupportOutlinedIcon /></div>
