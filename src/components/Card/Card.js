@@ -13,6 +13,7 @@ class MainCard extends Component {
         <Card.Header className="header">
           <FlexView basis="100%" >
             <FlexView basis="50%" >
+             
           {this.props.header}
           </FlexView>
             <FlexView hAlignContent="right" basis="50%" >
