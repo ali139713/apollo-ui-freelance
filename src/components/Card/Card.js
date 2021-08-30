@@ -4,6 +4,7 @@ import FlexView from 'react-flexview/lib';
 import Button from 'react-bootstrap/Button'
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
+
 import './styles.css'
 class MainCard extends Component {
     render() {
@@ -21,7 +22,7 @@ class MainCard extends Component {
           </Card.Header>
         <Card.Body>
           {/* <Card.Title>Special title treatment</Card.Title> */}
-          <Card.Text>
+          <Card.Text className="cardBodyText">
           No contacts opened your email in the last hour.
           </Card.Text>
           

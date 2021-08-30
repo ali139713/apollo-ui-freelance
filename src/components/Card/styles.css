@@ -2,11 +2,16 @@
 .header{
     text-align: left ;
     background-color: #ffff !important;
-    font-weight: 600 !important;
+    font-size:15px;
+    font-weight: bold;
 }
 .card{
     width: calc(100% - 50px);
+    text-align: center;
 }
+.card-text:last-child{
+    color: lightgray;
+} 
 .card-height{
     height: 500px;
 }

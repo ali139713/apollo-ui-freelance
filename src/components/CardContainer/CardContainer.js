@@ -4,7 +4,7 @@ import Card from '../Card/Card'
 class CardContainer extends Component {
     render() {
      return(
-       <FlexView column marginLeft="2%" marginRight="2%" marginTop="3%"  >      
+       <FlexView style = {{backgroundColor:"#eff3f7"}} column marginLeft="2%" marginRight="2%" marginTop="3%"  >      
             <FlexView basis="100%"  >
              <FlexView basis="50%" height="325px" >
            <Card header="Contacts That Opened My Email In The Last Hour" />
