@@ -68,11 +68,13 @@ class Navigationbar extends Component {
     <InputGroup.Text className="input-height" id="inputGroup-sizing-sm"></InputGroup.Text>
     
     <FormControl  className="input-height" aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
-    <div className="iconContainer m-2">
+    <div className="iconContainer" style={{marginLeft:'10px'}}>
   <div className="s-1 "><CallOutlinedIcon  /></div>
   <div className="s-1"><ContactSupportOutlinedIcon /></div>
   <div className="s-1"><NotificationsOutlinedIcon /></div>
+  
   </div>
+ 
   </InputGroup>
       
     </Nav>
