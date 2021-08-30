@@ -65,9 +65,9 @@ class Navigationbar extends Component {
     <Nav>
      <Button className="navbarButton"> Upgrade </Button>
      <InputGroup size="sm" className="ml-0 mb-2 mt-2">
-    <InputGroup.Text id="inputGroup-sizing-sm"></InputGroup.Text>
+    <InputGroup.Text id="inputGroup-sizing-sm"><SearchOutlinedIcon /></InputGroup.Text>
           
-    <FormControl aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+    <FormControl aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Search..." />
   </InputGroup>
       <div className="iconContainer">
   <CallOutlinedIcon />
