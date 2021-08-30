@@ -5,8 +5,8 @@ class CardContainer extends Component {
     render() {
      return(
        <FlexView style = {{backgroundColor:"#eff3f7"}} column marginLeft="2%" marginRight="2%" marginTop="3%"  >      
-            <FlexView basis="100%"  >
-             <FlexView basis="50%" height="325px" >
+            <FlexView basis="100%"  marginTop="2%"  >
+             <FlexView basis="50%" height="325px" marginLeft="2%" >
            <Card header="Contacts That Opened My Email In The Last Hour" />
              </FlexView>
              <FlexView   basis="50%" >
@@ -14,7 +14,7 @@ class CardContainer extends Component {
              </FlexView>
         </FlexView>
             <FlexView basis="100%" marginTop="3%" >
-             <FlexView basis="50%"  >
+             <FlexView basis="50%" marginLeft="2%"  >
            <Card header="Last Week's Email Stats" />
              </FlexView>
              <FlexView basis="50%"  >
@@ -22,7 +22,7 @@ class CardContainer extends Component {
              </FlexView>
         </FlexView>
             <FlexView basis="100%" marginTop="3%" >
-             <FlexView basis="50%"  >
+             <FlexView basis="50%" marginLeft="2%"  >
            <Card header="Last Week's Call Stats" />
              </FlexView>
              <FlexView basis="50%"  >
@@ -30,7 +30,7 @@ class CardContainer extends Component {
              </FlexView>
         </FlexView>
             <FlexView basis="100%" marginTop="3%" >
-             <FlexView basis="50%"  height="325px" >
+             <FlexView basis="50%"  height="325px" marginLeft="2%" >
            <Card header="My Scheduled Emails" />
              </FlexView>
            
