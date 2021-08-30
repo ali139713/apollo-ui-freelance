@@ -78,8 +78,8 @@ class Navigationbar extends Component {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-<Navbar  style = {{backgroundColor:"#eff3f7"}}collapseOnSelect expand="lg" variant="light  ">
-  <Container fluid>
+<Navbar style = {{backgroundColor:"#eff3f7"}}collapseOnSelect expand="lg" variant="light  ">
+  <Container fluid className="heading-alignment">
   <Nav.Link href="#features"><strong>Onboarding</strong></Nav.Link>
   <Nav.Link href="#features"><strong>Cockpit</strong></Nav.Link>
   </Container>

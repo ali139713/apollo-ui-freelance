@@ -20,3 +20,6 @@
 #secondNavbar{
     justify-content: left !important;
 }
+.heading-alignment{
+    justify-content: flex-start !important;
+}
