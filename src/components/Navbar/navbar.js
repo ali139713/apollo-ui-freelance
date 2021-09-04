@@ -32,7 +32,7 @@ class Navigationbar extends Component {
           <div>
             <Navbar collapseOnSelect expand="lg" bg="white" variant="light  ">
   <Container fluid>
-  <Navbar.Brand href="#home"><img src= "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAyNCAzNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMi4xNTIgOC44NDMyNkwyMC4wNzA0IDI2Ljc4NThIMjRMMTIuMjE1OCAwLjQ3ODUxNkwwIDI2Ljc4NThIMy44OTMzN0wxMi4xNTIgOC44NDMyNlpNMTIuMTUyIDM0LjM5MjFMMTUuNDg2MyAyNi43ODU4SDguNjc0MzlMMTIuMTUyIDM0LjM5MjFaIiBmaWxsPSIjMzU0MDUzIi8+Cjwvc3ZnPgo="/></Navbar.Brand>
+  <Navbar.Brand href="#home"><img src= "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAyNCAzNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMi4xNTIgOC44NDMyNkwyMC4wNzA0IDI2Ljc4NThIMjRMMTIuMjE1OCAwLjQ3ODUxNkwwIDI2Ljc4NThIMy44OTMzN0wxMi4xNTIgOC44NDMyNlpNMTIuMTUyIDM0LjM5MjFMMTUuNDg2MyAyNi43ODU4SDguNjc0MzlMMTIuMTUyIDM0LjM5MjFaIiBmaWxsPSIjMzU0MDUzIi8+Cjwvc3ZnPgo=" alt="Logo"/></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
